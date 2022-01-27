@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @facebook %>
+
+<div>
+  <%= link_to "Edit this facebook", edit_facebook_path(@facebook) %> |
+  <%= link_to "Back to facebooks", facebooks_path %>
+
+  <%= button_to "Destroy this facebook", @facebook, method: :delete %>
+</div>
